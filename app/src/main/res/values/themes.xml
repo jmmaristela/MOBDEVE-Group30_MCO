@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.MOBDEVE_Maristela_OcampoMCO" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.MOBDEVE_Maristela_OcampoMCO" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="Theme.MOBDEVE_Maristela_OcampoMCO.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"/>
 </resources>
