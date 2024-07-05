@@ -13,20 +13,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.mobdeve.s12.mobdeve_maristela_ocampo_mco.ui.theme.MOBDEVE_Maristela_OcampoMCOTheme
 
+import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
-            MOBDEVE_Maristela_OcampoMCOTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }
-        }
+        setContentView(R.layout.activity_main)
     }
 }
 
